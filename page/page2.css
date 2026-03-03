@@ -1,0 +1,94 @@
+
+header{
+    
+    p {text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+nav{
+
+    div{
+        font: grey;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: row;
+        /* background: black; */
+        justify-content: space-around;
+        /* color: white; */
+        margin: 100px;
+        
+
+    }
+    .menu a {
+        color: #333;
+        text-decoration: none;
+        font-weight: 500;
+
+    }
+
+    .menu a:hover {
+    color: #e9756a;     /* 마우스 올렸을 때 */
+}
+
+}
+
+.search-box{
+    text-align: center;
+}
+
+.search-box input {
+    width: 250px;            
+    height: 25px;
+    padding: 0 20px;
+    
+    background-color: #e7e7e7; 
+    border: none;              
+    border-radius: 30px;       
+
+    font-size: 16px;
+    outline: none; 
+}
+
+main{
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;      
+        min-height: 100vh;
+        margin: 70px;
+    }
+
+    .explain{
+        text-align: center;
+        color:#646363;
+        font-size: 12px;
+        font: 'Malgun Gothic';
+
+
+    }
+
+    
+
+    .button{
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .button input{
+        width: 100px;            
+        height: 50px;
+        padding: 0 20px;
+    
+    }
+
+
+
+}
