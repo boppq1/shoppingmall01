@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 80%;
+}
+
+
+/* -------------------------------------------- */
+
+header {
+
+    position: relative;
+    padding: 20px 40px;
+}
+
+
+.logo {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: gray;
+}
+
+
+
+
+nav {
+
+    div {
+        font: grey;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: row;
+        /* background: black; */
+        justify-content: space-around;
+        /* color: white; */
+        margin: 100px;
+
+
+    }
+
+    .category a {
+        color: #333;
+        text-decoration: none;
+        font-weight: 500;
+
+    }
+
+    .category a:hover {
+        color: #e9756a;
+        /* 마우스 올렸을 때 */
+    }
+
+}
+
+.search-box {
+    text-align: center;
+}
+
+.search-box input {
+    width: 250px;
+    height: 25px;
+    padding: 0 20px;
+
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: 30px;
+
+    font-size: 16px;
+    outline: none;
+}
